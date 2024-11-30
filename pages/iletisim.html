@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style-slider.css">
+    <link rel="icon" href="/images/dermaflora-favicon-black.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="page-background"></div>
+    <nav id="headercontent">
+
+    </nav>
+    <div class="contact-page-wrapper">
+        <section class="contact-page">
+            <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:info@dermaflora.com.tr">info@dermaflora.com.tr</a>
+            </div>
+            <div class="contact-item">
+                <i style="rotate: -45deg;" class="fa-solid fa-phone-volume"></i>
+                <a href="tel:+905510943445">0551 094 34 45</a>
+            </div>
+            <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <a href="https://www.google.com/maps/place/Haydar+Ak%C4%B1n+Mesleki+ve+Teknik+Anadolu+Lisesi/@40.99761,28.7006568,17z/data=!3m1!4b1!4m6!3m5!1s0x14caa0f6f4a36563:0x828b63c47a08d41e!8m2!3d40.997606!4d28.7032317!16s%2Fg%2F1td8v6kc?entry=tts&g_ep=EgoyMDI0MTAxNi4wIPu8ASoASAFQAw%3D%3D">Mustafa Kemal Paşa, Hilal Sk. No:73 Avcılar/İstanbul</a>
+            </div>
+        </section>
+        <section class="page-form">
+            <h2>İletişime Geçin</h2>
+            <form action="">
+                <div>
+                    <input placeholder="Adınız:" type="name">
+                    <input placeholder="Soyadınız:" type="text">
+                </div>
+                <textarea placeholder="Adresiniz:" name="" id="auto-resize"></textarea>
+                <div>
+                    <input placeholder="Telefon:" type="text">
+                    <input placeholder="E-posta:" type="email">
+                </div>
+            </form>
+            <form action="">
+                <textarea rows="10" placeholder="Şikayetiniz veya İletiniz"></textarea>
+                <input type="submit">
+            </form>
+        </section>
+    </div>
+    
+    
+    <script>
+        const textarea = document.getElementById('auto-resize');
+        textarea.addEventListener('input', function () {
+          this.style.height = 'auto'; // İlk başta sıfırlıyoruz
+          this.style.height = (this.scrollHeight) + 'px'; // İçeriğe göre yüksekliği ayarlıyoruz
+        });
+    </script>
+    <div id="footercontent">
+
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>

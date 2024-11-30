@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- navigator bar -->
+    <nav>
+        <a class="header-logo" href="#"></a>
+        <ul>
+            <li><a href="/pages/hakkimizda.html">Hakkımızda</a></li>
+            <li>
+                <a href="/pages/urunler.html">Ürünlerimiz</a>
+                <ul class="dropdown">
+                    <li><a href="">Cilt Bakım Kremleri</a></li>
+                    <li><a href="">Leke Giderici Kremler</a></li>
+                    <li><a href="">Duş Bakım Ürünleri</a></li>
+                </ul>
+            </li>
+
+            <li><a class="nav-end" href="/pages/iletisim.html">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <!-- navigator bar sonu-->
+
+    <!-- Cart menü başlangıç -->
+
+    <section class="cart-menu">
+
+        <h1 class="menu-title">Ürün Listesi</h1>
+
+        <div class="listCart">
+
+        </div>
+
+        <div class="button-area">
+            <button onclick="showcart()" class="menu-button close">Kapat</button>
+            <button onclick="odemealert()" class="menu-button payment">Ödeme</button>
+        </div>
+
+    </section>
+
+    <button onclick="showcart()" class="shop-cart"><i class="fa-solid fa-cart-shopping"></i></button>
+
+    <!-- Cart menü bitiş -->
+
+    <!-- iletişim butonu baş -->
+
+    <section>
+        <div class="contact-area">
+            <div class="contact-box">
+                <div>
+                    <h1>Yaşanan problemler için</h1>
+                    <p>Her cilt, özel bir hikaye; biz de onu yazmanıza yardımcı olalım</p>
+                </div>
+                <div>
+                    <form class="contact-form" action="">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text" placeholder="Mail gönderin">
+                        <button>Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- iletişim butonu son -->
+
+    <!-- Footer Başlangıç -->
+    <footer>
+        <section class="footer-wrapper">
+            <div class="footer-block">
+                <ul>    
+                    <div class="footer-image"></div>
+                    <li>Dermaflora, doğal içeriklerle cilt sağlığına yönelik etkili ürünler sunan bir markadır. Sağlıklı ve canlı bir cilt için güvenilir çözümler sağlar</li>
+                    <li>
+                        <a href="https://www.twitter.com/" target="_blank"><i class="footer-button fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="footer-button fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="footer-button fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="footer-button fa-brands fa-youtube"></i></a>
+                </ul>
+            </div>
+            <div class="footer-block">
+                <ul class="footer-item">
+                    <li><a href="tel:+905510943445"><i style="rotate: -45deg; font-size: 30px; margin: 20px;" class="fa-solid fa-phone-volume"></i></a></li>
+                    <li><a class="footer-contact" href="tel:+905510943445">0551 094 34 45</a></li>
+                    <li><a href="https://maps.app.goo.gl/QrxZaYK7kezTrV8P7"><i style="font-size: 30px; margin: 20px;" class="fa-solid fa-house-chimney"></i></a></li>
+                    <li><a href="https://maps.app.goo.gl/QrxZaYK7kezTrV8P7">Mustafa Kemal Paşa, Hilal Sk. No:73 No:69, 34320, 34320 Beylikdüzü Osb/Avcılar/İstanbul</a></li>
+                    <li><a href=""><i class="fa-solid fa-envelope" style="font-size: 30px; margin: 20px;"></i></a></li>
+                    <li><a href="">info@dermaflora.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-block">
+                <ul class="footer-link">
+                    <li><h2>Hızlı linkler</h2></li>
+                    <li><a href="/pages/hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="/pages/urunler.html">Ürünlerimiz</a></li>
+                    <li><a href="/pages/iletisim.html">İletişim</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Footer Bitiş -->
+</body>
+</html>

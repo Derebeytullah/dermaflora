@@ -1,0 +1,113 @@
+[
+    {
+        "id": 1,
+        "name":" A-product-1",
+        "price": 200,
+        "image": "/product-images/a-product-1.png",
+        "category": "Product-a",
+        "link": " /product-pages/a-product-1.html",
+        "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam vel reiciendis, est quidem magni libero repellendus commodi praesentium cumque, eveniet sequi.",
+        "main": "on"
+    },
+    {
+        "id": 2,
+        "name":" A-product-2",
+        "price": 250,
+        "image": "/product-images/a-product-2.png",
+        "category": "Product-a",
+        "link": " /product-pages/a-product-2.html",
+        "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam vel reiciendis, est quidem magni libero repellendus commodi praesentium cumque, eveniet sequi."
+    },
+    {
+        "id": 3,
+        "name":" A-product-3",
+        "price": 290,
+        "image": "/product-images/a-product-3.png",
+        "category": "Product-a",
+        "link": " /product-pages/a-product-3.html",
+        "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam vel reiciendis, est quidem magni libero repellendus commodi praesentium cumque, eveniet sequi."
+    },
+    {
+        "id": 4,
+        "name":" A-product-4",
+        "price": 290,
+        "image": "/product-images/a-product-4.png",
+        "category": "Product-a",
+        "link": " /product-pages/a-product-4.html",
+        "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam vel reiciendis, est quidem magni libero repellendus commodi praesentium cumque, eveniet sequi."
+    },
+    {
+        "id": 5,
+        "name":" B-product-1",
+        "price": 290,
+        "image": "/product-images/b-product-1.png",
+        "category": "Product-b",
+        "link": " /product-pages/b-product-1.html",
+        "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam vel reiciendis, est quidem magni libero repellendus commodi praesentium cumque, eveniet sequi.",
+        "main": "on"
+    },
+    {
+        "id": 6,
+        "name":" B-product-2",
+        "price": 290,
+        "image": "/product-images/b-product-2.png",
+        "category": "Product-b",
+        "link": " /product-pages/b-product-2.html",
+        "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam vel reiciendis, est quidem magni libero repellendus commodi praesentium cumque, eveniet sequi."
+    },
+    {
+        "id": 7,
+        "name":" B-product-3",
+        "price": 290,
+        "image": "/product-images/b-product-3.png",
+        "category": "Product-b",
+        "link": " /product-pages/b-product-3.html",
+        "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam vel reiciendis, est quidem magni libero repellendus commodi praesentium cumque, eveniet sequi."
+    },
+    {
+        "id": 8,
+        "name":" B-product-4",
+        "price": 290,
+        "image": "/product-images/b-product-4.png",
+        "category": "Product-b",
+        "link": " /product-pages/b-product-4.html",
+        "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam vel reiciendis, est quidem magni libero repellendus commodi praesentium cumque, eveniet sequi."
+    },
+    {
+        "id": 9,
+        "name":" C-product-1",
+        "price": 290,
+        "image": "/product-images/c-product-1.png",
+        "category": "Product-c",
+        "link": " /product-pages/c-product-1.html",
+        "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam vel reiciendis, est quidem magni libero repellendus commodi praesentium cumque, eveniet sequi.",
+        "main": "on"
+    },
+    {
+        "id": 10,
+        "name":" C-product-2",
+        "price": 290,
+        "image": "/product-images/c-product-2.png",
+        "category": "Product-c",
+        "link": " /product-pages/c-product-2.html",
+        "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam vel reiciendis, est quidem magni libero repellendus commodi praesentium cumque, eveniet sequi."
+    },
+    {
+        "id": 11,
+        "name":" C-product-3",
+        "price": 290,
+        "image": "/product-images/c-product-3.png",
+        "category": "Product-c",
+        "link": " /product-pages/c-product-3.html",
+        "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam vel reiciendis, est quidem magni libero repellendus commodi praesentium cumque, eveniet sequi."
+    },
+    {
+        "id": 12,
+        "name":" C-product-4",
+        "price": 290,
+        "image": "/product-images/c-product-4.png",
+        "category": "Product-c",
+        "link": " /product-pages/c-product-4.html",
+        "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam vel reiciendis, est quidem magni libero repellendus commodi praesentium cumque, eveniet sequi."
+    }
+]
