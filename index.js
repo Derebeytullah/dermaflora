@@ -1,6 +1,9 @@
 let header = document.getElementById('headercontent');
 let footer = document.getElementById('footercontent');
-let cartmenu = document.getElementById('cart-menu');
+
+
+
+
 
 const headerfile = () => {
     fetch('/pages/header.html')
@@ -19,3 +22,19 @@ const footerfile = () => {
     })
 }
 footerfile();
+
+window.onload = function() {
+    // Sayfa ve tüm içerikler yüklendikten sonra yapılacak işlemler
+    let loginarea = document.querySelector('.login-area');
+    console.log(loginarea);
+    let logininfo = false;
+
+    if (loginarea) {
+        console.log(logininfo);
+        loginarea.innerHTML = 
+        `
+        <li><a class="login-btn" href="">Kayıt Ol <i class="fa-solid fa-user-plus"></i></a></li>
+        <li><a class="login-btn" href="/pages/log-in.html">Giriş Yap <i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
+        `;
+    }
+};
