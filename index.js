@@ -23,12 +23,10 @@ const footerfile = () => {
 }
 footerfile();
 
-window.onload = function() {
-    // Sayfa ve tüm içerikler yüklendikten sonra yapılacak işlemler
+document.addEventListener('DOMContentLoaded', function() {
     let loginarea = document.querySelector('.login-area');
     console.log(loginarea);
     let logininfo = false;
-
     if (loginarea) {
         console.log(logininfo);
         loginarea.innerHTML = 
@@ -37,4 +35,4 @@ window.onload = function() {
         <li><a class="login-btn" href="/pages/log-in.html">Giriş Yap <i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
         `;
     }
-};
+});
