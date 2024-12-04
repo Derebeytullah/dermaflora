@@ -758,7 +758,7 @@ body.showcart .cart-menu{
   overflow: auto;
   display: grid;
   grid-template-rows: auto; 
-  align-self: start;
+  place-content: start;
   gap: 10px;
 }
 .listCart::-webkit-scrollbar{
